@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+       <a id="skip-nav" href="#main"> Skip Navigation </a>
+      <input type="checkbox" name="check" id="check" />
+      <label for="check" class="checkbtn"><i class="fa fa-bars" aria-hidden="true"></i></label>
+      <nav class="navbar">
+        <label for="logo" class="logo"><a href="#">CodzSchach</a></label>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+<main id="main">
+    <form action="post" id="form">
+
+        <!-- headings goes here -->
+        <div class="form-x">
+        <h1>Application Form</h1>
+        <p>Fill in your details</p>
+        </div>
+
+    <!-- name div goes here -->
+        <div class="name">
+
+         <!-- first name label and input -->
+        <div class="f-name">
+            <!-- label for last name -->
+        <label for="firstName">First Name</label>
+       <!-- input for last name -->
+        <input type="text" placeholder="First Name" id="firstName" required>
+        </div>
+
+        <!--last name goes here  -->
+        <div class="l-name">
+            <!-- label for last name -->
+        <label for="lastName">Last Name</label>
+        <!-- input for last name -->
+        <input type="text" placeholder="Last Name" id="lastName" aria-required="true">
+        </div> 
+
+        <!-- gender selection goes here -->
+        <div class="gender">
+            <!-- label for gender selection -->
+                <label for="gender">Gender</label>
+            <!-- options to select your gender preference -->
+                <select type="select" name="" id="gender" placeholder="Select Gender" name="" id="">
+                <option value="">--Please Select a Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="bisexual">Bisexual</option>
+                <option value="nt">Non Binary</option>
+                </select>
+               </div>
+             
+        <!-- date of birth goes here -->
+            <div class="dob">
+                <!-- date of birth label -->
+                    <label for="dateOfBirth">Date Of Birth</label>
+                    <!-- input to pick date of birth -->
+                    <input type="date" name="" id="dateOfBirth" placeholder="select">
+            </div>
+
+        <!-- email address goes here -->
+            <div class="email">
+                <!-- label for email -->
+                <label for="email">Email Address</label>
+                <!-- email input goes here -->
+                <input type="email" id="email" placeholder="Enter Email" required>
+            </div>
+
+        <!-- here school selection goes here -->
+        <div class="edu">
+            <!-- label for selection of education level -->
+            <label for="schoolselect">Education Level</label>
+            <!-- options to select your educational level -->
+            <select name="school" id="school-select">
+                    <option value="">Select Level of Education</option>
+                    <option value="">Bsc</option>
+                    <option value="">Msc</option>
+                    <option value="">Diploma</option>
+                    <option value="">Doctorate (Phd)</option>
+                    <option value="">High School/Secondary School</option>
+                    <option value="">Undergraduate</option>
+                    <option value="">Junior / Middle School</option>
+                    <option value="">Post Graduate</option>
+                    </select>
+        </div>
+
+    <!-- select country -->
+        <div class="country">
+            <!-- label for country selection goes here -->
+           <label for="country-sel">Country</label> 
+           <!-- options to select country goes here -->
+                <select name="" id="country-sel">
+                        <option value="">Select a Country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Ghana</option>
+                        <option value="">Senegal</option>
+                        <option value="">Cameroon</option>
+                        <option value="">Niger</option>
+                        <option value="">Benin</option>
+                </select>           
+        </div>
+
+        <!-- state selection start here -->
+        <div class="state">
+            <!-- label for state option -->
+            <label for="state">State/City of Resident</label> 
+            <!-- input to insert state -->
+            <input type="text" id="state" placeholder="Enter Your State"> 
+        </div>
+
+         <!-- Employment and phone number -->
+        <div class="status">
+        <label for="employment">Employment Status</label> 
+                    <select name="" id="employment">
+                        <option value="">Select employment status</option>
+                        <option value="">Employed</option>
+                        <option value="">Unemployed</option>
+                    </select>
+        </div>
+
+        <!-- contact goes here -->
+        <div class="contact">
+            <!-- label for phone number -->
+            <label for="phoneNumber">Phone Number</label>
+            <!-- input for phone number -->
+            <input type="text" placeholder="0803-000-4000" maxlength="11" id="phoneNumber">
+        </div>
+
+    <!-- choice of school -->
+        <div class="school">
+            <!-- label for school choice -->
+                <label for="school">Choose Course of Study</label>
+                <!-- options to select the school -->
+                <select name="school-pick" id="school">
+                    <option value="">--Select School--</option>
+                    <option value="">School of Creation</option>
+                    <option value="">School of Business</option>
+                </select>
+        </div>
+
+    <!-- school choice option -->
+        <div class="course"> 
+            <!-- label for school -->
+            <label for="course"> Choose School</label>
+        <!-- options to select school -->
+                <select name="" id="course">
+                        <option value="">Select Course</option>
+                        <option value="">Select Course</option>
+                        <option value="">Select Course</option>
+                        <option value="">Select Course</option>
+                </select>
+        </div>
+
+     <!-- how did you hear about us -->
+    <div class="hear-about-us">
+        <!-- label for how you got to hear about us -->
+    <label for="howDidYouContactUs">How did you hear about us?</label>
+    <!-- options for diff social media -->
+        <select name="" id="howDidYouContactUs">
+                    <option value="">Select channels</option>
+                    <option value="">Twitter</option>
+                    <option value="">What's App</option>
+                    <option value="">Facebook</option>
+                    <option value="">Youtube</option>
+                    <option value="">LinkedIn</option>
+                    <option value="">Friend</option>
+                    <option value="">Instagram</option>
+                    <option value="">Bill Board</option>
+        </select>
+    </div>
+
+    <!-- scholarship option goes here -->
+    <div class="scholarship">
+        <!-- label for scholarship -->
+            <label for="scholarship">Scholarship/Discount Code (option)</label>
+            <!-- input for scholarship -->
+            <input type="text" placeholder="Scholarship or stuck" id="scholarship">
+           </div>   
+
+
+
+
+
+
+
+        <!--first div ends here  -->
+        </div>
+
+    <div class="term-condition">
+        <p>
+            <input type="checkbox" name="" id="">
+            By clicking continue, I agree to <a href="#">Terms of Use</a>
+            and acknowledge <br> that you have read the <a href="#">Privacy Policy</a>
+        </p>
+    </div>
+    <div class="btn-proceed">
+        <button type="button" id="proceed">Proceed</button>
+    </div>
+    <div class="sign-in">
+    <p>Already have an account? <button href="#">Sign In</button> </p>
+    </div>
+</form>
+</main> 
+<footer class="formfooter">
+    <p> &reg; CodzSchach 2023</p>
+</footer>   
+</body>
+</html>
