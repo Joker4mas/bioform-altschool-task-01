@@ -16,7 +16,8 @@ header {
     position: absolute;
     padding: 0.5rem 1.5rem;
     left: .5rem;
-    background: rgb(114, 236, 114);
+    color:black;
+    background: rgb(233, 237, 233);
     border: 2px solid rgb(92, 231, 11);
     transform: translateY(-140%);
     transition: transform 325ms ease-in;
@@ -217,11 +218,6 @@ form input:active{
     font-size: 1.5rem;
     /* padding: 5px; */
 }
-
-
-
-
-
 
 
 
